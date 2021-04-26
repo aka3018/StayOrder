@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="css/NewFile.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width.initial-scale=1.0">
 <title>Insert title here</title>
 <style>
+.button{
+ width:90px;
+ height:40px;
+ font-size: 14px;
+ margin: 10px;
+text-decoration: none;
+margin: 60px 50px 10px 95px;
+border-radius:10px;
+background-color: #fff;
+	border:2px solid #D2B48C;
+	color: #DEB887;
+}
 .image1 {
 
 float: right;
 width: 90px; height: 90px;
 margin-left: 168px; margin-top: 10px;
-border: 5px double #87C540;
+border: 5px double #FFD700;
 position: absolute;
 }
 
@@ -19,7 +32,7 @@ position: absolute;
 float: right;
 width: 90px; height: 90px;
 margin-left: 168px; margin-top: 80px;
-border: 5px double #87C540;
+border: 5px double #FFD700;
 position: absolute;
 }
 
@@ -28,7 +41,7 @@ position: absolute;
 float: right;
 width: 90px; height: 90px;
 margin-left: 168px; margin-top: 85px;
-border: 5px double #87C540;
+border: 5px double #FFD700;
 position: absolute;
 }
 
@@ -37,7 +50,7 @@ position: absolute;
 float: right;
 width: 90px; height: 90px;
 margin-left: 168px; margin-top: 90px;
-border: 5px double #87C540;
+border: 5px double #FFD700;
 position: absolute;
 }
 
@@ -46,7 +59,7 @@ position: absolute;
 float: right;
 width: 90px; height: 90px;
 margin-left: 168px; margin-top: 12px;
-border: 5px double #87C540;
+border: 5px double #FFD700;
 position: absolute;
 }
 
@@ -55,7 +68,7 @@ position: absolute;
 float: right;
 width: 90px; height: 90px;
 margin-left: 168px; margin-top: 88px;
-border: 5px double #87C540;
+border: 5px double #FFD700;
 position: absolute;
 }
 .image6 {
@@ -63,7 +76,7 @@ position: absolute;
 float: right;
 width: 90px; height: 90px;
 margin-left: 168px; margin-top: 10px;
-border: 5px double #87C540;
+border: 5px double #FFD700;
 position: absolute;
 }
 
@@ -72,7 +85,7 @@ position: absolute;
 float: right;
 width: 90px; height: 90px;
 margin-left: 168px; margin-top: 95px;
-border: 5px double #87C540;
+border: 5px double #FFD700;
 position: absolute;
 }
 
@@ -81,9 +94,11 @@ position: absolute;
 float: right;
 width: 90px; height: 90px;
 margin-left: 168px; margin-top: 100px;
-border: 5px double #87C540;
+border: 5px double #FFD700;
 position: absolute;
 }
+
+
 
 .align{ margin-left: 100px; }
 .align2{ margin-left: 70px; }
@@ -92,8 +107,8 @@ position: absolute;
 
 </head>
 <body>
-<h1 class="align">Table1</h1>
-<h3 class="align2" style="color: orange;"> PASTA & GRATIN<br></h3>
+<h1 class="align" style="color: #FF7F50;">Table1</h1>
+<h3 class="align2" style="color: darkorange;"> PASTA & GRATIN<br></h3>
 
 <center>
 <img class="image1" src='image/pasta.jpg'>
@@ -168,7 +183,7 @@ position: absolute;
  
  
  
-<h2 class="align" style="color: orange;" > <br><br><br>PIZZA <br></h2>
+<h2 class="align" style="color: darkorange;" > <br><br><br>PIZZA <br></h2>
 
 <center>
 <img class="image4" src='image/pizza.jpg'>
@@ -245,7 +260,7 @@ position: absolute;
  </div>
 
 
-<h4 class="align3" style="color: orange;"><br><br><br><br>CHICKEN BARBECUE <br></h4>
+<h4 class="align3" style="color: darkorange;"><br><br><br><br>CHICKEN BARBECUE <br></h4>
 
 <center>
 <img class="image6" src='image/chicken.jpg'>
@@ -266,6 +281,12 @@ position: absolute;
         </form>
        
  </div>
+
+  <form method=get action="NewFile.jsp">
+   <input type = "submit" name = "submit" value = "주문하기" class="button"  />
+   </form>
+
+   
  
 </body>
 </html>
